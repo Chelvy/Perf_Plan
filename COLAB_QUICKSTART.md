@@ -7,7 +7,7 @@ Ultra-rapide : copiez-collez ces commandes dans Google Colab !
 ## 🚀 Option 1: Notebook Complet (Recommandé)
 
 ### Ouvrez le notebook:
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR_USERNAME/Perf_Plan/blob/main/notebooks/03_colab_full_pipeline.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/chelvy/Perf_Plan/blob/main/notebooks/03_colab_full_pipeline.ipynb)
 
 **Puis:**
 - `Runtime` → `Run all` (ou `Ctrl+F9`)
@@ -24,7 +24,7 @@ Copiez-collez dans une cellule Colab:
 
 ```python
 # Clone et exécute le système complet
-!git clone https://github.com/YOUR_USERNAME/Perf_Plan.git
+!git clone https://github.com/chelvy/Perf_Plan.git
 %cd Perf_Plan
 !python run_colab.py
 ```
@@ -37,7 +37,7 @@ Copiez-collez dans une cellule Colab:
 
 ```bash
 # Clone et setup
-!git clone https://github.com/YOUR_USERNAME/Perf_Plan.git
+!git clone https://github.com/chelvy/Perf_Plan.git
 %cd Perf_Plan
 
 # Exécute tout
@@ -53,7 +53,7 @@ Si vous voulez plus de contrôle:
 ### 1. Setup
 ```python
 # Clone repository
-!git clone https://github.com/YOUR_USERNAME/Perf_Plan.git
+!git clone https://github.com/chelvy/Perf_Plan.git
 %cd Perf_Plan
 
 # Install dependencies
@@ -378,4 +378,4 @@ Après exécution, vous devriez avoir:
 
 ---
 
-**N'oubliez pas de remplacer `YOUR_USERNAME` par votre username GitHub !**
+**N'oubliez pas de remplacer `chelvy` par votre username GitHub !**

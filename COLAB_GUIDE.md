@@ -4,11 +4,11 @@ Run the z/OS MIPS Prediction system on Google Colab in minutes!
 
 ## 📋 Quick Links
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR_USERNAME/Perf_Plan/blob/main/notebooks/03_colab_full_pipeline.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/chelvy/Perf_Plan/blob/main/notebooks/03_colab_full_pipeline.ipynb)
 
-**Direct Link:** `https://colab.research.google.com/github/YOUR_USERNAME/Perf_Plan/blob/main/notebooks/03_colab_full_pipeline.ipynb`
+**Direct Link:** `https://colab.research.google.com/github/chelvy/Perf_Plan/blob/main/notebooks/03_colab_full_pipeline.ipynb`
 
-Replace `YOUR_USERNAME` with your GitHub username.
+Replace `chelvy` with your GitHub username.
 
 ---
 
@@ -177,7 +177,7 @@ config['outlier_method'] = 'clip'
 
 **Solution:** Make sure you ran the cell that clones the repository:
 ```bash
-!git clone https://github.com/YOUR_USERNAME/Perf_Plan.git
+!git clone https://github.com/chelvy/Perf_Plan.git
 %cd Perf_Plan
 ```
 

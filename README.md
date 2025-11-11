@@ -1,6 +1,6 @@
 # z/OS MIPS Prediction - Machine Learning System
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR_USERNAME/Perf_Plan/blob/main/notebooks/03_colab_full_pipeline.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/chelvy/Perf_Plan/blob/main/notebooks/03_colab_full_pipeline.ipynb)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
@@ -19,7 +19,7 @@ Ce projet implémente un système d'apprentissage machine pour prédire la conso
 **OU utilisez le script automatisé:**
 
 ```bash
-!git clone https://github.com/YOUR_USERNAME/Perf_Plan.git
+!git clone https://github.com/chelvy/Perf_Plan.git
 %cd Perf_Plan
 !bash run_colab.sh
 ```
