@@ -4,15 +4,30 @@ Ultra-rapide : copiez-collez ces commandes dans Google Colab !
 
 ---
 
-## 🚀 Option 1: Notebook Complet (Recommandé)
+## 🚀 Option 1: Notebook All-in-One (Recommandé) ⭐
 
-### Ouvrez le notebook:
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/chelvy/Perf_Plan/blob/main/notebooks/03_colab_full_pipeline.ipynb)
+**NOUVEAU: Un seul notebook pour tout!**
 
-**Puis:**
+### Ouvrez le notebook complet:
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/chelvy/Perf_Plan/blob/main/notebooks/01_complete_pipeline.ipynb)
+
+**Inclut:**
+- 🔄 Transformation pivot → ML
+- 📤 Upload de vos données
+- 🎲 Données d'exemple
+- 🚀 Entraînement complet
+- 📊 Évaluation et visualisation
+- 💾 Téléchargement modèles
+
+**Pour tester:**
 - `Runtime` → `Run all` (ou `Ctrl+F9`)
-- Attendez 5-10 minutes
+- Attendez 8-12 minutes
 - Téléchargez vos modèles
+
+**Pour vos données:**
+- Section 2 → Choisissez votre format (pivot/long/sample)
+- Section 3 → Upload
+- Exécutez le reste
 
 **C'est tout ! ✨**
 

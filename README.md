@@ -1,6 +1,6 @@
 # z/OS MIPS Prediction - Machine Learning System
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/chelvy/Perf_Plan/blob/main/notebooks/03_colab_full_pipeline.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/chelvy/Perf_Plan/blob/main/notebooks/01_complete_pipeline.ipynb)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
@@ -10,19 +10,33 @@ Ce projet implémente un système d'apprentissage machine pour prédire la conso
 
 ## 🚀 Quick Start sur Google Colab
 
-**Exécutez le système complet en 5 minutes sur Google Colab (gratuit) !**
+**⭐ NOUVEAU: Notebook All-in-One Complet!**
 
-### Option 1: Avec Données d'Exemple (Pour tester)
-1. Cliquez sur le badge "Open in Colab" ci-dessus
-2. Exécutez toutes les cellules (`Runtime` → `Run all`)
-3. Téléchargez vos modèles entraînés
+**Un seul notebook qui inclut tout:**
+- 🔄 Transformation données pivot → ML
+- 📤 Upload de vos données
+- 🎲 Création de données d'exemple
+- 🚀 Entraînement complet (Régression + Classification)
+- 📊 Évaluation et visualisation
+- 💾 Téléchargement des modèles
 
-### Option 2: Avec Vos Propres Données z/OS ⭐
-1. Cliquez sur le badge "Open in Colab" ci-dessus
-2. Allez à **Step 2: Prepare Data → Option B**
-3. Changez `USE_UPLOADED_DATA = True`
-4. Uploadez votre fichier CSV (format dans [UPLOAD_GUIDE.md](UPLOAD_GUIDE.md))
-5. Exécutez le reste du notebook
+**Temps d'exécution:** 8-15 minutes selon vos données
+
+### Option 1: Notebook Complet (Recommandé) ⭐
+
+**Cliquez sur le badge "Open in Colab" ci-dessus** pour ouvrir le notebook all-in-one.
+
+1. **Pour tester:** Exécutez tout (`Runtime` → `Run all`)
+2. **Pour données pivot:** Section 2 → `USE_PIVOT_DATA = True`
+3. **Pour données long-format:** Section 2 → `USE_UPLOADED_DATA = True`
+4. Suivez les instructions dans chaque section
+
+### Option 2: Notebooks Spécialisés
+
+Si vous préférez des notebooks séparés par fonction:
+- [Transformation pivot](https://colab.research.google.com/github/chelvy/Perf_Plan/blob/main/notebooks/05_transform_pivot_data.ipynb) - Pour données pivot uniquement
+- [Upload données](https://colab.research.google.com/github/chelvy/Perf_Plan/blob/main/notebooks/04_upload_your_data.ipynb) - Pour valider vos données
+- [Pipeline original](https://colab.research.google.com/github/chelvy/Perf_Plan/blob/main/notebooks/03_colab_full_pipeline.ipynb) - Pipeline d'entraînement
 
 ### Option 3: Script Automatisé
 

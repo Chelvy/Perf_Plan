@@ -4,7 +4,8 @@
 
 | Ressource | URL |
 |-----------|-----|
-| **Colab Notebook** | https://colab.research.google.com/github/chelvy/Perf_Plan/blob/main/notebooks/03_colab_full_pipeline.ipynb |
+| **Notebook All-in-One** ⭐ | https://colab.research.google.com/github/chelvy/Perf_Plan/blob/main/notebooks/01_complete_pipeline.ipynb |
+| **Notebook Original** | https://colab.research.google.com/github/chelvy/Perf_Plan/blob/main/notebooks/03_colab_full_pipeline.ipynb |
 | **GitHub Repo** | https://github.com/chelvy/Perf_Plan |
 | **Clone URL** | https://github.com/chelvy/Perf_Plan.git |
 

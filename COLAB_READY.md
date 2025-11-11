@@ -4,21 +4,39 @@ Tous les liens sont maintenant configurés avec votre username **chelvy** !
 
 ---
 
-## ✨ Option 1: Notebook Complet (Cliquez et Exécutez)
+## ✨ Option 1: Notebook All-in-One (Recommandé) ⭐
+
+**NOUVEAU: Un seul notebook pour tout!**
 
 ### Lien Direct:
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/chelvy/Perf_Plan/blob/main/notebooks/03_colab_full_pipeline.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/chelvy/Perf_Plan/blob/main/notebooks/01_complete_pipeline.ipynb)
 
 **URL complète:**
 ```
-https://colab.research.google.com/github/chelvy/Perf_Plan/blob/main/notebooks/03_colab_full_pipeline.ipynb
+https://colab.research.google.com/github/chelvy/Perf_Plan/blob/main/notebooks/01_complete_pipeline.ipynb
 ```
+
+**Inclut:**
+- 🔄 Transformation pivot → ML
+- 📤 Upload données
+- 🎲 Données d'exemple
+- 🚀 Entraînement complet
+- 📊 Évaluation
+- 💾 Téléchargement
 
 **Étapes:**
 1. Cliquez sur le badge ci-dessus
-2. `Runtime` → `Run all` (ou Ctrl+F9)
-3. Attendez ~8-12 minutes
-4. Téléchargez `zos_mips_models_results.zip`
+2. Section 2: Configurez votre source de données (pivot/upload/sample)
+3. `Runtime` → `Run all` (ou Ctrl+F9)
+4. Attendez ~8-15 minutes
+5. Téléchargez `zos_mips_models_results.zip`
+
+### Notebooks Spécialisés:
+
+Si vous préférez des notebooks séparés:
+- [Transformation pivot seule](https://colab.research.google.com/github/chelvy/Perf_Plan/blob/main/notebooks/05_transform_pivot_data.ipynb)
+- [Upload et validation](https://colab.research.google.com/github/chelvy/Perf_Plan/blob/main/notebooks/04_upload_your_data.ipynb)
+- [Pipeline original](https://colab.research.google.com/github/chelvy/Perf_Plan/blob/main/notebooks/03_colab_full_pipeline.ipynb)
 
 ---
 
