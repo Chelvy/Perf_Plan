@@ -12,11 +12,19 @@ Ce projet implémente un système d'apprentissage machine pour prédire la conso
 
 **Exécutez le système complet en 5 minutes sur Google Colab (gratuit) !**
 
+### Option 1: Avec Données d'Exemple (Pour tester)
 1. Cliquez sur le badge "Open in Colab" ci-dessus
 2. Exécutez toutes les cellules (`Runtime` → `Run all`)
 3. Téléchargez vos modèles entraînés
 
-**OU utilisez le script automatisé:**
+### Option 2: Avec Vos Propres Données z/OS ⭐
+1. Cliquez sur le badge "Open in Colab" ci-dessus
+2. Allez à **Step 2: Prepare Data → Option B**
+3. Changez `USE_UPLOADED_DATA = True`
+4. Uploadez votre fichier CSV (format dans [UPLOAD_GUIDE.md](UPLOAD_GUIDE.md))
+5. Exécutez le reste du notebook
+
+### Option 3: Script Automatisé
 
 ```bash
 !git clone https://github.com/chelvy/Perf_Plan.git
@@ -24,7 +32,9 @@ Ce projet implémente un système d'apprentissage machine pour prédire la conso
 !bash run_colab.sh
 ```
 
-📖 **Guide détaillé:** Voir [COLAB_GUIDE.md](COLAB_GUIDE.md)
+📖 **Guides:**
+- [COLAB_GUIDE.md](COLAB_GUIDE.md) - Guide complet Colab
+- [UPLOAD_GUIDE.md](UPLOAD_GUIDE.md) - Comment uploader vos données ⭐
 
 ## Problème
 
