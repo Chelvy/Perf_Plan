@@ -190,11 +190,12 @@ Perf_Plan/
 | Document | Usage |
 |----------|-------|
 | **COLAB_READY.md** | ⭐ Commandes prêtes à l'emploi |
-| **COLAB_QUICKSTART.md** | Copy-paste rapide |
+| **COLAB_QUICKSTART.md** | Copy-paste rapide (3 min) |
 | **COLAB_GUIDE.md** | Guide complet détaillé |
-| **TRANSFORM_GUIDE.md** | 🔄 Transformer données pivot |
-| **UPLOAD_GUIDE.md** | 📤 Uploader vos données |
+| **TRANSFORM_QUICKSTART.md** | 🔄 Transform pivot rapide (5 min) |
+| **TRANSFORM_GUIDE.md** | 🔄 Transform guide complet |
 | **UPLOAD_QUICKSTART.md** | 📤 Upload rapide (3 min) |
+| **UPLOAD_GUIDE.md** | 📤 Upload guide complet |
 | **README.md** | Documentation générale |
 
 ---

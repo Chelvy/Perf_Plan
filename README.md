@@ -35,7 +35,8 @@ Ce projet implémente un système d'apprentissage machine pour prédire la conso
 📖 **Guides:**
 - [COLAB_GUIDE.md](COLAB_GUIDE.md) - Guide complet Colab
 - [UPLOAD_GUIDE.md](UPLOAD_GUIDE.md) - Comment uploader vos données ⭐
-- [TRANSFORM_GUIDE.md](TRANSFORM_GUIDE.md) - Transformer données pivot → format ML 🔄
+- [TRANSFORM_QUICKSTART.md](TRANSFORM_QUICKSTART.md) - Transform rapide (5 min) 🔄
+- [TRANSFORM_GUIDE.md](TRANSFORM_GUIDE.md) - Transform guide complet 🔄
 
 ### 🔄 Vos Données sont en Format Pivot?
 
