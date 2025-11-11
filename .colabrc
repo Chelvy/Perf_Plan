@@ -1,0 +1,26 @@
+# Google Colab Configuration for z/OS MIPS Prediction
+# This file is automatically sourced when running on Colab
+
+# Environment variables
+export PYTHONPATH="${PYTHONPATH}:${PWD}/src"
+export MIPS_DATA_DIR="${PWD}/data"
+export MIPS_MODELS_DIR="${PWD}/models"
+export MIPS_RESULTS_DIR="${PWD}/results"
+
+# Default configuration
+export MIPS_TEST_SIZE=0.2
+export MIPS_RANDOM_STATE=42
+export MIPS_FEATURE_ENGINEERING=true
+export MIPS_N_CATEGORIES=3
+
+# Logging
+export MIPS_LOG_LEVEL=INFO
+
+# Display settings
+export PYTHONIOENCODING=utf-8
+export COLUMNS=120
+
+echo "✅ z/OS MIPS Prediction environment configured"
+echo "📁 Data directory: $MIPS_DATA_DIR"
+echo "📁 Models directory: $MIPS_MODELS_DIR"
+echo "📁 Results directory: $MIPS_RESULTS_DIR"

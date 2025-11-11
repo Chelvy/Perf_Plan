@@ -1,0 +1,35 @@
+{
+  "description": "Configuration for z/OS MIPS prediction on Google Colab",
+  "version": "1.0.0",
+  "training": {
+    "data_path": "data/sample/sample_mips_data.csv",
+    "test_size": 0.2,
+    "random_state": 42,
+    "time_based_split": false,
+    "scaler_type": "standard",
+    "handle_outliers": true,
+    "outlier_method": "clip",
+    "feature_engineering": true,
+    "n_categories": 3,
+    "category_method": "quantile",
+    "save_models": true,
+    "output_dir": "models",
+    "results_dir": "results"
+  },
+  "sample_data": {
+    "n_samples": 2000,
+    "n_apps": 100,
+    "random_state": 42
+  },
+  "colab": {
+    "runtime": "python3",
+    "gpu_required": false,
+    "estimated_time_minutes": 10
+  },
+  "notes": [
+    "Modify training.test_size to change train/test split (0.1-0.3 recommended)",
+    "Set training.feature_engineering to false to disable feature engineering",
+    "Increase sample_data.n_samples for larger datasets",
+    "Use training.scaler_type='robust' for noisy data"
+  ]
+}

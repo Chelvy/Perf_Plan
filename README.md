@@ -1,8 +1,30 @@
 # z/OS MIPS Prediction - Machine Learning System
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR_USERNAME/Perf_Plan/blob/main/notebooks/03_colab_full_pipeline.ipynb)
+[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 ## Vue d'ensemble
 
 Ce projet implémente un système d'apprentissage machine pour prédire la consommation CPU (MIPS) des applications z/OS basé sur des données historiques de performance sur 3 ans.
+
+## 🚀 Quick Start sur Google Colab
+
+**Exécutez le système complet en 5 minutes sur Google Colab (gratuit) !**
+
+1. Cliquez sur le badge "Open in Colab" ci-dessus
+2. Exécutez toutes les cellules (`Runtime` → `Run all`)
+3. Téléchargez vos modèles entraînés
+
+**OU utilisez le script automatisé:**
+
+```bash
+!git clone https://github.com/YOUR_USERNAME/Perf_Plan.git
+%cd Perf_Plan
+!bash run_colab.sh
+```
+
+📖 **Guide détaillé:** Voir [COLAB_GUIDE.md](COLAB_GUIDE.md)
 
 ## Problème
 
