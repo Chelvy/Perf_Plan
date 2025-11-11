@@ -21,6 +21,17 @@
 !python run_colab.py
 ```
 
+### Transformation Données Pivot (Si nécessaire)
+
+```python
+# Si vos données ont dates en colonnes et indicateurs en lignes
+from google.colab import files
+uploaded = files.upload()
+pivot_file = list(uploaded.keys())[0]
+!python src/transform_pivot.py {pivot_file}
+# Fichier transformé créé: {pivot_file}_transformed.csv
+```
+
 ### Localement
 
 ```bash
@@ -30,6 +41,9 @@ cd Perf_Plan
 
 # Install
 pip install -r requirements.txt
+
+# Transformer données pivot (si nécessaire)
+python src/transform_pivot.py votre_fichier_pivot.csv
 
 # Créer données d'exemple
 python main.py create-sample
@@ -178,6 +192,9 @@ Perf_Plan/
 | **COLAB_READY.md** | ⭐ Commandes prêtes à l'emploi |
 | **COLAB_QUICKSTART.md** | Copy-paste rapide |
 | **COLAB_GUIDE.md** | Guide complet détaillé |
+| **TRANSFORM_GUIDE.md** | 🔄 Transformer données pivot |
+| **UPLOAD_GUIDE.md** | 📤 Uploader vos données |
+| **UPLOAD_QUICKSTART.md** | 📤 Upload rapide (3 min) |
 | **README.md** | Documentation générale |
 
 ---
@@ -185,11 +202,12 @@ Perf_Plan/
 ## 🎓 Workflow Typique
 
 1. **Clone** le repo sur Colab
-2. **Créez** ou uploadez vos données
-3. **Entraînez** avec `run_colab.py`
-4. **Comparez** les modèles
-5. **Téléchargez** le meilleur
-6. **Déployez** en production
+2. **Transformez** vos données pivot (si nécessaire)
+3. **Créez** ou uploadez vos données
+4. **Entraînez** avec `run_colab.py`
+5. **Comparez** les modèles
+6. **Téléchargez** le meilleur
+7. **Déployez** en production
 
 ---
 

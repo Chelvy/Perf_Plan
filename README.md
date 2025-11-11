@@ -35,6 +35,24 @@ Ce projet implémente un système d'apprentissage machine pour prédire la conso
 📖 **Guides:**
 - [COLAB_GUIDE.md](COLAB_GUIDE.md) - Guide complet Colab
 - [UPLOAD_GUIDE.md](UPLOAD_GUIDE.md) - Comment uploader vos données ⭐
+- [TRANSFORM_GUIDE.md](TRANSFORM_GUIDE.md) - Transformer données pivot → format ML 🔄
+
+### 🔄 Vos Données sont en Format Pivot?
+
+Si vos données z/OS ont **des dates en colonnes** et **des indicateurs en lignes** (format pivot):
+
+```
+code_application | code_indicateur | 2022-04-01 | 2022-05-01 | ...
+DEV-CICS         | MDIU           | 0,2717     | 0,196      | ...
+```
+
+**Transformez-les d'abord:**
+1. Ouvrez le [notebook de transformation](https://colab.research.google.com/github/chelvy/Perf_Plan/blob/main/notebooks/05_transform_pivot_data.ipynb)
+2. Uploadez votre fichier pivot
+3. Téléchargez le fichier transformé
+4. Utilisez-le dans le notebook principal
+
+📖 Guide complet: [TRANSFORM_GUIDE.md](TRANSFORM_GUIDE.md)
 
 ## Problème
 
