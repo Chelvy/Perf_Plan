@@ -59,14 +59,16 @@ class MIPSRegressionModel:
         elif self.model_type == 'lasso':
             # Lasso regression with L1 regularization
             alpha = self.model_params.pop('alpha', 1.0)
-            self.model = Lasso(alpha=alpha, max_iter=10000, **self.model_params)
+            max_iter = self.model_params.pop('max_iter', 10000)
+            self.model = Lasso(alpha=alpha, max_iter=max_iter, **self.model_params)
 
         elif self.model_type == 'elasticnet':
             # ElasticNet with L1 and L2 regularization
             alpha = self.model_params.pop('alpha', 1.0)
             l1_ratio = self.model_params.pop('l1_ratio', 0.5)
+            max_iter = self.model_params.pop('max_iter', 10000)
             self.model = ElasticNet(alpha=alpha, l1_ratio=l1_ratio,
-                                   max_iter=10000, **self.model_params)
+                                   max_iter=max_iter, **self.model_params)
 
         elif self.model_type == 'polynomial':
             # Polynomial regression
@@ -87,7 +89,9 @@ class MIPSRegressionModel:
 
         elif self.model_type == 'sgd':
             # Stochastic Gradient Descent
-            self.model = SGDRegressor(max_iter=10000, tol=1e-3, **self.model_params)
+            max_iter = self.model_params.pop('max_iter', 10000)
+            tol = self.model_params.pop('tol', 1e-3)
+            self.model = SGDRegressor(max_iter=max_iter, tol=tol, **self.model_params)
 
         elif self.model_type == 'bayesian':
             # Bayesian Ridge Regression

@@ -48,12 +48,15 @@ class MIPSClassificationModel:
             # Logistic Regression
             penalty = self.model_params.pop('penalty', 'l2')
             C = self.model_params.pop('C', 1.0)
+            solver = self.model_params.pop('solver', 'lbfgs')
+            max_iter = self.model_params.pop('max_iter', 10000)
+            multi_class = self.model_params.pop('multi_class', 'multinomial')
             self.model = LogisticRegression(
                 penalty=penalty,
                 C=C,
-                max_iter=10000,
-                multi_class='multinomial',
-                solver='lbfgs',
+                max_iter=max_iter,
+                multi_class=multi_class,
+                solver=solver,
                 **self.model_params
             )
 
@@ -67,12 +70,14 @@ class MIPSClassificationModel:
             loss = self.model_params.pop('loss', 'log_loss')
             penalty = self.model_params.pop('penalty', 'l2')
             alpha = self.model_params.pop('alpha', 0.0001)
+            max_iter = self.model_params.pop('max_iter', 10000)
+            tol = self.model_params.pop('tol', 1e-3)
             self.model = SGDClassifier(
                 loss=loss,
                 penalty=penalty,
                 alpha=alpha,
-                max_iter=10000,
-                tol=1e-3,
+                max_iter=max_iter,
+                tol=tol,
                 **self.model_params
             )
 
