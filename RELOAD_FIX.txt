@@ -1,0 +1,31 @@
+# ⚠️ ADD THIS CELL BEFORE SECTION 5 - RUN THIS FIRST ⚠️
+
+#@title 🔄 **Reload Modules After Update** { display-mode: "form" }
+#@markdown Run this cell to reload the updated model files.
+#@markdown This is needed if the code was updated while the notebook is running.
+
+import sys
+import importlib
+
+print("🔄 Reloading modules with bug fixes...\n")
+
+# Remove cached modules
+modules_to_reload = [
+    'src.models.classification',
+    'src.models.regression',
+    'src.training'
+]
+
+for module_name in modules_to_reload:
+    if module_name in sys.modules:
+        print(f"   Removing cached: {module_name}")
+        del sys.modules[module_name]
+
+# Re-import with fixes
+print("\n✅ Importing updated modules...")
+from src.models.regression import RegressionModelFactory, BaselinePredictor
+from src.models.classification import ClassificationModelFactory, MajorityClassBaseline
+from src.training import MIPSTrainingPipeline
+
+print("✅ Modules reloaded with fixes!")
+print("\n📝 Now you can run Section 5 (Training) without errors.")
