@@ -10,26 +10,38 @@ Ce projet implémente un système d'apprentissage machine pour prédire la conso
 
 ## 🚀 Quick Start sur Google Colab
 
-**⭐ NOUVEAU: Notebook All-in-One Complet!**
+**⭐ NOUVEAU: Notebook Interactif - Zero Code!**
 
-**Un seul notebook qui inclut tout:**
-- 🔄 Transformation données pivot → ML
-- 📤 Upload de vos données
-- 🎲 Création de données d'exemple
-- 🚀 Entraînement complet (Régression + Classification)
-- 📊 Évaluation et visualisation
-- 💾 Téléchargement des modèles
+**Interface 100% cliquable:**
+- 🎯 **Dropdowns** pour sélectionner vos options
+- 🎚️ **Sliders** pour ajuster les paramètres
+- ☑️ **Checkboxes** pour activer/désactiver features
+- ▶️ **Boutons Run** pour exécuter chaque étape
 
-**Temps d'exécution:** 8-15 minutes selon vos données
+**Plus besoin d'éditer le code - tout est visuel!**
 
-### Option 1: Notebook Complet (Recommandé) ⭐
+### Comment ça marche:
 
-**Cliquez sur le badge "Open in Colab" ci-dessus** pour ouvrir le notebook all-in-one.
+1. **Cliquez** sur le badge "Open in Colab" ci-dessus
+2. **Section 2**: Cliquez sur ⚙️ → Sélectionnez vos options dans le formulaire
+   - Dropdown: "Sample Data (Test)" / "Upload Pivot Data" / "Upload Long-Format"
+   - Ajustez les sliders selon vos besoins
+3. **Section 3**: Cliquez ▶️ Run → Upload automatique si nécessaire
+4. **Section 5**: Cliquez sur ⚙️ → Sélectionnez le mode training → ▶️ Run
+5. **Section 9**: Téléchargez vos modèles (automatique)
 
-1. **Pour tester:** Exécutez tout (`Runtime` → `Run all`)
-2. **Pour données pivot:** Section 2 → `USE_PIVOT_DATA = True`
-3. **Pour données long-format:** Section 2 → `USE_UPLOADED_DATA = True`
-4. Suivez les instructions dans chaque section
+**Temps total:** 8-15 minutes | **Code editing:** 0% | **Click & Go:** 100% ✨
+
+📖 **Guide détaillé:** [INTERACTIVE_GUIDE.md](INTERACTIVE_GUIDE.md) - Guide visuel complet
+
+### Option 1: Notebook Interactif (Recommandé) ⭐
+
+**[Ouvrir le Notebook](https://colab.research.google.com/github/chelvy/Perf_Plan/blob/main/notebooks/01_complete_pipeline.ipynb)**
+
+✨ **Nouveau:** Interface avec formulaires
+- Pas de code à éditer
+- Sélectionnez avec dropdowns et sliders
+- Cliquez et c'est parti!
 
 ### Option 2: Notebooks Spécialisés
 
